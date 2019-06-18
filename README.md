@@ -7,29 +7,14 @@ All terms and nomenclature in the code refer to that publication. Please ask the
 This code is based on the finite difference discretization, on a staggered grid. 
 It uses a fixed spatial grid size $\Delta x$ and an adaptive time step $\Delta t$.
 
-Different contributors during the years have worked on different parts of this code. We acnlowledge:
-
-Te-Sheng Lin
-
-Nebo Murisic
-
-Ivana Seric
-
-Michael Lam
-
-Valeria Barra
-
-Ryan Allaire
-
-all supervised or co-supervised by Prof. Lou Kondic, 
-from the Department of Mathematical Sciences, at the New Jersey Institute of Technology.
-
 This code solves the thin film (or long wave) approximation of thin viscoelastic films 
 on a solid, flat substrate subject to the van der Waals interaction force, in two spatial dimensions. 
 The governing equations are obtained within a long-wave (lubrication) approximation of the Navier–Stokes equations 
 with Jeffreys model for viscoelastic stresses. This version of the code does not include any gravitational effects. 
 
 The implementation provided is suitable for CPUs in serial mode. 
+
+## Build
 
 To build the prject, move into the [Debug](./Debug/) folder by running 
 
@@ -49,7 +34,26 @@ To execute the program, run with the name of the executable created
 
 or launch in a scheduling system.
 
-The output files are intended to be placed in an `Output` folder, on the same level of the `Debug` folder.
+## Output
 
+The output files are intended to be placed in an `Output` folder, on the same level of the `Debug` folder. The `status.dat` file summarizes the parameters used for the simulation and monitors the adaptive time stepping and Newton's convergence in time. The state variable of the thin film equation is the thickness of the film relative to the solid substrate, printed in the file `thickness.dat`, for all contiguous grid points, for all consecutive time steps. The file `thickness.dat` gets printed at each selected output in append mode (i.e., never overwritten). On the other hand, there exist another output file for the solution, called `resLastOut.dat` that at every step gets overwritten to store the solution at the last output, with more significant digits of precision. This has been implemented so that we can checkpoint the solution and continue the simulation later with an existing solution. In the case of the consitnuation of an existing simulation, use `init_switch=1` in the file `paras.f90` and make sure that the file `resLastOut.dat` is present in your current working directory.
+
+## Contributors
+Different contributors during the years have worked on different parts of this code. We acnlowledge:
+
+Te-Sheng Lin
+
+Nebo Murisic
+
+Ivana Seric [@ivanaseric on GitHub](https://github.com/ivanaseric)
+
+Michael Lam [@mayhl on GitHub](https://github.com/mayhl/)
+
+Valeria Barra [@valeriabarra on GitHub](https://github.com/valeriabarra)
+
+Ryan Allaire
+
+all supervised or co-supervised by Prof. Lou Kondic, 
+from the Department of Mathematical Sciences, at the New Jersey Institute of Technology.
 
 Users and contributors are always welcome.
