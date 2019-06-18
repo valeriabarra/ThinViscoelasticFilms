@@ -6,7 +6,7 @@ MODULE paras
   !!$ this module contains several of the physical parameters that needs to be defined
   
   !!$ output folder
-  CHARACTER(len=*), PARAMETER :: folder='/home/v/vb82/CleanThinVEFilmCode/Output/000/'
+  CHARACTER(len=*), PARAMETER :: folder='/home/user/Output/000/' ! needs to be changed with your global path
 
   !!$ initialization of Tolerance for Steady State !
   REAL(DP), PARAMETER ::  tolsteady=1.0d-10
