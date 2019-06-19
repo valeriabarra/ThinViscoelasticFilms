@@ -47,6 +47,8 @@ Nebo Murisic
 
 Ensela Mema
 
+Kyle Mahady [@kmahady on GitHub](https://github.com/kmahady)
+
 Ivana Seric [@ivanaseric on GitHub](https://github.com/ivanaseric)
 
 Michael Lam [@mayhl on GitHub](https://github.com/mayhl/)
@@ -64,10 +66,12 @@ Users and contributors are always welcome.
 
 If you use any component of this code, please cite the following:
 
-* [L. Kondic, *Instabilities in gravity driven flow of thin fluid films*, SIAM Rev. 45 (2003) 95–115](10.1137/S003614450240135) 
+* [J.A. Diez, L. Kondic, *Computing three-dimensional thin film flows including contact lines*, J. Comput. Phys. 183 (2002) 274–306](http://www.sciencedirect.com/science/article/pii/S0021999102971974)
 
-* [A. L. Bertozzi, *The mathematics of moving contact lines in thin liquid films*, Not. Amer. Math. Soc. 45 (1998) 689–697]()
+* [L. Kondic, *Instabilities in gravity driven flow of thin fluid films*, SIAM Rev. 45 (2003) 95–115](https://doi.org/10.1137/S003614450240135) 
 
-* [T.-S. Lin, L. Kondic, *Thin films flowing down inverted substrates: Two dimensional flow*, Phys. Fluids 22 (2010)](10.1063/1.3428753)
+* [J.A. Diez, L. Kondic, *On the breakup of fluid films of finite and infinite extent*, Phys. Fluids 19 (2007) 072107](https://doi.org/10.1063/1.2749515)
+
+* [T.-S. Lin, L. Kondic, *Thin films flowing down inverted substrates: Two dimensional flow*, Phys. Fluids 22 (2010)](https://aip.scitation.org/doi/10.1063/1.3428753)
 
 * [Barra et al., *Interfacial dynamics of thin viscoelastic films and drops*, JNNFM (2016)](http://dx.doi.org/10.1016/j.jnnfm.2016.10.001)
