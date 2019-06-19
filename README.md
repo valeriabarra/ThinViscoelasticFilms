@@ -1,7 +1,7 @@
 # Code for Thin Viscoelastic Film simulations on flat substrates
 
 This repository contains a Fortran 90 code for the numerical simulations of thin viscoelastic films and drops on solid, flat substrates. The nomenclature used in the code, reflects the reference paper 
-[Barra et al., "Interfacial dynamics of thin viscoelastic films and drops", JNNFM (2016)](http://dx.doi.org/10.1016/j.jnnfm.2016.10.001). 
+[Barra et al., *Interfacial dynamics of thin viscoelastic films and drops*, JNNFM (2016)](http://dx.doi.org/10.1016/j.jnnfm.2016.10.001). 
 All terms and nomenclature in the code refer to that publication. Please ask the author if you cannot access the reference paper.
 
 This code is based on the finite difference discretization, on a staggered grid. 
@@ -45,6 +45,8 @@ Te-Sheng Lin
 
 Nebo Murisic
 
+Ensela Mema
+
 Ivana Seric [@ivanaseric on GitHub](https://github.com/ivanaseric)
 
 Michael Lam [@mayhl on GitHub](https://github.com/mayhl/)
@@ -57,3 +59,15 @@ all supervised or co-supervised by Prof. Lou Kondic,
 from the Department of Mathematical Sciences, at the New Jersey Institute of Technology.
 
 Users and contributors are always welcome.
+
+## Citing this project
+
+If you use any component of this code, please cite the following:
+
+* [L. Kondic, *Instabilities in gravity driven flow of thin fluid films*, SIAM Rev. 45 (2003) 95–115](10.1137/S003614450240135) 
+
+* [A. L. Bertozzi, *The mathematics of moving contact lines in thin liquid films*, Not. Amer. Math. Soc. 45 (1998) 689–697]()
+
+* [T.-S. Lin, L. Kondic, *Thin films flowing down inverted substrates: Two dimensional flow*, Phys. Fluids 22 (2010)](10.1063/1.3428753)
+
+* [Barra et al., *Interfacial dynamics of thin viscoelastic films and drops*, JNNFM (2016)](http://dx.doi.org/10.1016/j.jnnfm.2016.10.001)
