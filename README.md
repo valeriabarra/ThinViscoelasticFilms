@@ -41,21 +41,21 @@ The output files are intended to be placed in an `Output` folder, on the same le
 ## Contributors
 Different contributors during the years have worked on different parts of this code. We acnlowledge:
 
-Te-Sheng Lin
+* Te-Sheng Lin
 
-Nebo Murisic
+* Nebo Murisic
 
-Ensela Mema
+* Ensela Mema
 
-Kyle Mahady [@kmahady on GitHub](https://github.com/kmahady)
+* Kyle Mahady [@kmahady on GitHub](https://github.com/kmahady)
 
-Ivana Seric [@ivanaseric on GitHub](https://github.com/ivanaseric)
+* Ivana Seric [@ivanaseric on GitHub](https://github.com/ivanaseric)
 
-Michael Lam [@mayhl on GitHub](https://github.com/mayhl/)
+* Michael Lam [@mayhl on GitHub](https://github.com/mayhl/)
 
-Valeria Barra [@valeriabarra on GitHub](https://github.com/valeriabarra)
+* Valeria Barra [@valeriabarra on GitHub](https://github.com/valeriabarra)
 
-Ryan Allaire
+* Ryan Allaire
 
 all supervised or co-supervised by Prof. Lou Kondic, 
 from the Department of Mathematical Sciences, at the New Jersey Institute of Technology.
