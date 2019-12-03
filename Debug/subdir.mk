@@ -51,7 +51,7 @@ F90_SRCS += \
 ../new_time.f90 \
 ../newton.f90 \
 ../nonlin_cap.f90 \
-../nonlin_func2.f90 \
+../nonlin_func.f90 \
 ../nonlin_h.f90 \
 ../nonlin_quadterm.f90 \
 ../nonlin_quadvdw.f90 \
@@ -92,7 +92,7 @@ OBJS += \
 ./new_time.o \
 ./newton.o \
 ./nonlin_cap.o \
-./nonlin_func2.o \
+./nonlin_func.o \
 ./nonlin_h.o \
 ./nonlin_quadterm.o \
 ./nonlin_quadvdw.o \
@@ -162,7 +162,7 @@ newton.o: ../newton.f90 domain_space.o domain_time.o mobility.o nr_ban.o nrtype.
 
 nonlin_cap.o: ../nonlin_cap.f90 domain_space.o mobility.o nrtype.o
 
-nonlin_func2.o: ../nonlin_func2.f90 domain_space.o mobility.o nrtype.o paras.o vanderwaals.o
+nonlin_func.o: ../nonlin_func.f90 domain_space.o mobility.o nrtype.o paras.o vanderwaals.o
 
 nonlin_h.o: ../nonlin_h.f90 domain_space.o nrtype.o
 
