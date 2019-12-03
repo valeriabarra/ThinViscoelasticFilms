@@ -5,7 +5,7 @@ This repository contains a Fortran 90 code for the numerical simulations of thin
 All terms and nomenclature in the code refer to that publication. Please ask the author if you cannot access the reference paper.
 
 This code is based on the finite difference discretization, on a staggered grid. 
-It uses a fixed spatial grid size $\Delta x$ and an adaptive time step $\Delta t$.
+It uses a fixed spatial grid size Delta x and an adaptive time step Delta t.
 
 This code solves the thin film (or long wave) approximation of thin viscoelastic films 
 on a solid, flat substrate subject to the van der Waals interaction force, in two spatial dimensions. 
