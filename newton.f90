@@ -395,7 +395,7 @@ SUBROUTINE newton(res,Qi, Ri,Qinew,Rinew,resold,dt,newton_iter,iflag_newton,tau_
   
     !!$ this computes the shear stress tensor component 12 for sanity check 
     DO k=1,n
-	  tau_21(k) = (1.0d0/2.0d0)*(res(k))*( (1.0d0/dx3)*hxxxave(k) + (coef_vdw/dx)*vdwsimple(res(k))*(hxave(k)) )
+      tau_21(k) = (1.0d0/2.0d0)*(res(k))*( (1.0d0/dx3)*hxxxave(k) + (coef_vdw/dx)*vdwsimple(res(k))*(hxave(k)) )
     END DO
   
   END IF

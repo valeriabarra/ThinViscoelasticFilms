@@ -37,7 +37,7 @@ SUBROUTINE get_matrix_x_hxave(hxavem,hxave0,hxavep,gm_hxave,g0_hxave,gp_hxave)
   REAL(DP), DIMENSION(nmmax), INTENT(IN) :: hxavem,hxave0,hxavep
   REAL(DP), DIMENSION(nmmax), INTENT(OUT) :: gm_hxave,g0_hxave,gp_hxave
 
-  INTEGER(I4B) :: k, kp, np
+  INTEGER(I4B) :: k
   REAL(DP) :: ccx
 
   ccx=1.0d0/dx

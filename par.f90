@@ -53,7 +53,7 @@ SUBROUTINE par
   WRITE(6,98)'coef_vdw=',coef_vdw
   WRITE(6,98)'surf_tens=',surf_tens
   WRITE(6,98)'kappa=',kappa
-  WRITE(6,98),'contact=',contact_angle
+  WRITE(6,98)'contact=',contact_angle
   WRITE(6,98)'vdwM=',vdwM
   WRITE(6,98)'hstar=',hstar
   WRITE(6,98)'M=',M
@@ -71,7 +71,6 @@ SUBROUTINE par
 200  FORMAT(A15,1ES11.4)
 98   FORMAT(A15,F12.5)
 97   FORMAT(A15,I12)
-95   FORMAT(A15,F12.2,F12.2,I12)
 
   CALL flush(1)
   CALL flush(3)

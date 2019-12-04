@@ -34,7 +34,7 @@ SUBROUTINE nonlin_h(res,ffh)
   REAL(DP), DIMENSION(nmmax), INTENT(IN) :: res
   REAL(DP), DIMENSION(nmmax), INTENT(OUT) :: ffh
 
-  INTEGER(I4B) np,k,km,kp
+  INTEGER(I4B) np,k,km
 
   np=n+1
 

@@ -37,7 +37,7 @@ SUBROUTINE init(res,Qi,Ri,tau_21)
   REAL(DP), DIMENSION(n), INTENT(OUT) ::tau_21
 
   REAL(DP) :: stepx, h0, Kmax, ls, y0
-  INTEGER(I4B) :: k, l
+  INTEGER(I4B) :: k
 
   REAL(DP) :: dom(nmmax)
   

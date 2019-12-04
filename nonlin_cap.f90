@@ -39,7 +39,7 @@ SUBROUTINE nonlin_cap(res,ffx)
   REAL(DP), DIMENSION(nmmax), INTENT(IN) :: res
   REAL(DP), DIMENSION(nmmax), INTENT(OUT) :: ffx
 
-  INTEGER(I4B) np,k,km,kp
+  INTEGER(I4B) np,k,km
 
   np=n+1
 

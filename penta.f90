@@ -39,7 +39,7 @@ subroutine penta(a22,b,n,iflag_solve)
   REAL(DP), ALLOCATABLE, DIMENSION(:,:) :: a,al
   REAL(DP) :: d
   INTEGER(I4B), ALLOCATABLE, DIMENSION(:) :: indx
-  INTEGER(I4B) :: statu,i
+  INTEGER(I4B) :: statu
 
   allocate(a(n,5), stat=statu)
   allocate(al(n,2), stat=statu)

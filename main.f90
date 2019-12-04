@@ -42,8 +42,8 @@ PROGRAM main
         USE domain_space
         USE paras, ONLY: dx, dx2, dx3, dx4, dxh, bb, M, beta, hstar, switch_dom,init_switch, folder
         IMPLICIT NONE
-       REAL(DP), DIMENSION(nmmax), INTENT(OUT) :: res,Qi,Ri
-	   REAL(DP), DIMENSION(n), INTENT(OUT) ::tau_21
+        REAL(DP), DIMENSION(nmmax), INTENT(OUT) :: res,Qi,Ri
+        REAL(DP), DIMENSION(n), INTENT(OUT) ::tau_21
      END SUBROUTINE init
 
      SUBROUTINE output(res,t,tau_21)
@@ -52,9 +52,9 @@ PROGRAM main
          USE domain_space, ONLY: x, n, nmmax
          USE paras, ONLY: dx, bb, folder
          IMPLICIT NONE
-       REAL(DP), DIMENSION(nmmax), INTENT(IN) :: res
-	   REAL(DP), DIMENSION(n), INTENT(IN) ::tau_21
-       REAL(DP), INTENT(INOUT) :: t
+         REAL(DP), DIMENSION(nmmax), INTENT(IN) :: res
+         REAL(DP), DIMENSION(n), INTENT(IN) ::tau_21
+         REAL(DP), INTENT(INOUT) :: t
      END SUBROUTINE output
 
      SUBROUTINE new_time(res,resold,dt,Qi,Ri,newton_iter,stab_iter,massold,massinit,mass_flag,tau_21)
@@ -62,7 +62,7 @@ PROGRAM main
        USE domain_space, ONLY: n, nmmax
        USE paras, ONLY: fac_dec, dt_min, percent, folder
        REAL(DP), DIMENSION(nmmax), INTENT(INOUT) :: res, resold
-	   REAL(DP), DIMENSION(n), INTENT(INOUT) ::tau_21
+       REAL(DP), DIMENSION(n), INTENT(INOUT) ::tau_21
        REAL(DP), DIMENSION(nmmax), INTENT(IN) :: Qi, Ri
        REAL(DP), INTENT(INOUT) :: dt
        REAL(DP), INTENT(INOUT) :: massold
