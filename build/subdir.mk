@@ -38,7 +38,7 @@ F90_SRCS += \
 ../get_der_quadterm.f90 \
 ../get_der_quadvdw_x.f90 \
 ../get_der_vdw_x.f90 \
-../get_matrix_x2.f90 \
+../get_matrix_x.f90 \
 ../get_matrix_x_c.f90 \
 ../get_matrix_x_hxave.f90 \
 ../get_matrix_x_quadterm.f90 \
@@ -136,7 +136,7 @@ get_der_quadvdw_x.o: ../get_der_quadvdw_x.f90 domain_space.o nrtype.o paras.o va
 
 get_der_vdw_x.o: ../get_der_vdw_x.f90 domain_space.o nrtype.o paras.o vanderwaals.o
 
-get_matrix_x2.o: ../get_matrix_x2.f90 domain_space.o domain_time.o nrtype.o paras.o
+get_matrix_x.o: ../get_matrix_x.f90 domain_space.o domain_time.o nrtype.o paras.o
 
 get_matrix_x_c.o: ../get_matrix_x_c.f90 domain_space.o nrtype.o paras.o
 
