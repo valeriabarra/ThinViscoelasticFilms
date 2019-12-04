@@ -79,7 +79,7 @@ OBJS += \
 ./get_der_quadterm.o \
 ./get_der_quadvdw_x.o \
 ./get_der_vdw_x.o \
-./get_matrix_x2.o \
+./get_matrix_x.o \
 ./get_matrix_x_c.o \
 ./get_matrix_x_hxave.o \
 ./get_matrix_x_quadterm.o \
