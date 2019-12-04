@@ -1,4 +1,9 @@
-Output/*
-Debug/ThinVEFilm
-Debug/*.o
-Debug/*.mod
+# Executable
+build/ThinVEFilm
+
+# Build directory
+build/*.o
+build/*.mod
+
+# Output directory
+output/*
