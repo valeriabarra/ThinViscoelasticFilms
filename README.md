@@ -16,9 +16,9 @@ The implementation provided is suitable for CPUs in serial mode.
 
 ## Build
 
-To build the prject, move into the [Debug](./Debug/) folder by running 
+To build the prject, move into the [build](./build/) folder by running 
 
-`cd Debug`
+`cd build`
 
 and then either run the provided compile script, by running
 
