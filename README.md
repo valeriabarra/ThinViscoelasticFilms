@@ -39,7 +39,7 @@ or launch in a scheduling system.
 The output files are intended to be placed in an `Output` folder, on the same level of the `Debug` folder. This needs to specified in the `folder` variable in the file [`paras.f90`](./paras.f90). The `status.dat` file summarizes the parameters used for the simulation and monitors the adaptive time stepping and Newton's convergence in time. The state variable of the thin film equation is the thickness of the film relative to the solid substrate, printed in the file `thickness.dat`, for all contiguous grid points, for all consecutive time steps. The file `thickness.dat` gets printed at each selected output in append mode (i.e., never overwritten). On the other hand, there exist another output file for the solution, called `resLastOut.dat` that at every step gets overwritten to store the solution at the last output, with more significant digits of precision. This has been implemented so that we can checkpoint the solution and continue the simulation later with an existing solution. In the case of the consitnuation of an existing simulation, use `init_switch=1` in the [`paras.f90`](./paras.f90) file and make sure that the file `resLastOut.dat` is present in your current working directory.
 
 ## Contributors
-Different contributors during the years have worked on different parts of this code. We acnlowledge:
+Different contributors during the years have worked on different parts of this code. We acknowledge:
 
 * Te-Sheng Lin
 
