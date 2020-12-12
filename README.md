@@ -26,7 +26,7 @@ and then either run the provided compile script, by running
 
 or simply build with 
 
-`make`
+`make all`
 
 To execute the program, run with the name of the executable created
 
